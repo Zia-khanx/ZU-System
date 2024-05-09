@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;  
+}
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(93, 209, 58);
+    height: 100vh;
+}
+.container {
+    width: 30vw;
+    margin-top: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(173, 48, 48);
+    position: absolute;
+    top: 0;
+    background-color: rgba(16, 15, 15, .2);
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+   
+}
+.container:hover {
+    box-shadow: 5px 5px 50px black;
+    border: none;
+}
+h2 {
+    padding: 30px 30px 10px 30px;
+}
+h3 {
+    margin-bottom: 30px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    width: 85%;
+    border: none;
+    outline: none;
+    background: transparent;
+    text-align: center;
+    border-bottom: 2px solid rgb(203, 35, 35);
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+.btn {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: red;
+    font-size: 17px;
+    color: rgb(226, 206, 206);
+    cursor: pointer;
+}
+.result {
+    margin-top: 20px;
+}
+.sider{
+    height: 10px;
+    background-color: red;
+    width: 59px;
+    transform: skew(45deg);
+}
+.upper-sider {
+    display: flex;
+    column-gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.lift-sider {
+    row-gap: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    left: -49.5%;
+ }
+ .sider-left{
+     height: 60px;
+     background-color: red;
+     width: 10px;
+     transform: skewY(45deg);
+     display: flex;
+ }
+ .right-sider {
+    position: absolute;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    right: 5px;
+    margin-top: 13px;
+  }
+  .sider-right {
+      height: 60px;
+      width: 10px;
+      background-color: red;
+      transform: skewY(45deg);
+      
+  }
+  .bottom {
+    display: flex;
+    column-gap: 10px;
+    margin-left: 15px;
+ 
+ }
+ .bottom-sider {
+     height: 10px;
+     width: 59px;
+     background-color: red;
+     transform: skew(45deg);
+ }
+.Kilometer {
+    position: absolute;
+    bottom: 1%;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+}
+.Kilometer a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    color: red;
+
+}
+.Kilometer a:hover {
+    border-bottom: 1px solid red;
+}
+.logo {
+    position: absolute;
+    height: 100px;
+    top: 5%;
+    left: 5%;
+}
+h1 {
+    position: absolute;
+    top: 7%;
+    font-size: 2.9rem;
+}
+.bus {
+    position: absolute;
+    height: 200px;
+    top: 3%;
+    right: 5%;
+}
